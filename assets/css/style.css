@@ -1,6 +1,18 @@
 body{
- background: grey;
+    background:white;
 }
-h1{
-    color: brown;
+.heading{
+    text-align: center;
+}
+.game-area{
+    background:grey;
+}
+.rock{
+    color:orange;
+}
+.paper{
+    color:orange;
+}
+.scissor{
+    color:orange;
 }
