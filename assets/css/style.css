@@ -54,14 +54,20 @@ body {
     margin: 30px auto;
 }
 
-#score {
+#won {
     color: green;
     font-weight: bold;
+    margin:10px;
 }
-
-#incorrect {
+#tie{
+    color:orange;
+    font-weight: bold;
+    margin:10px;
+}
+#lost {
     color: red;
     font-weight: bold;
+    margin:10px;
 }
 
 .answer-message {
@@ -80,7 +86,8 @@ body {
 
 .scores {
     display: inline-block;
-    padding: 25px;
+    padding: 35px;
+    
 }
 
 /* --------- Buttons */
@@ -118,24 +125,24 @@ body {
     left: -0.5em;
 }
 
-.btn--blue {
-    border-color: blue;
-    color: blue;
-}
-
-.btn--blue:active,
-.btn--blue:hover {
-    background-color: darkblue;
-    color: white;
-}
-
 .btn--orange {
-    border-color:red;
-    color:red;
+    border-color: orange;
+    color:orange;
 }
 
 .btn--orange:active,
 .btn--orange:hover {
+    background-color: darkorange;
+    color: white;
+}
+
+.btn--red {
+    border-color:red;
+    color:red;
+}
+
+.btn--red:active,
+.btn--red:hover {
     background-color:darkred;
     color: white;
 }
@@ -151,17 +158,6 @@ body {
     color: white;
 }
 
-.btn--gray {
-    margin-top: 25px;
-    background-color: #445361;
-    border: 1px transparent;
-    border-radius: 20px;
-}
-
-.btn--gray:active,
-.btn--gray:hover {
-    background-color: #0d1013;
-}
 
 /* --------- Media queries */
 

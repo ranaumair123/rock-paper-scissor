@@ -14,31 +14,32 @@
 <h1 class="heading">Rock Paper Scissor</h1>
 <div class="game-area">
 <div class="controls-area">
-    <button class="btn btn--big btn--green">
+    <h2>You Choose</h2>
+    <button class="btn btn--big btn--green" id="rock">
         <i class="fa-sharp fa-solid fa-hand-back-fist"></i>
     </button>
-    <button class="btn btn--big btn--blue">
+    <button class="btn btn--big btn--orange" id="paper">
         <i class="fa-sharp fa-solid fa-hand"></i>
     </button>
-    <button class="btn btn--big btn--orange">
+    <button class="btn btn--big btn--red" id="scissors">
         <i class="fa-solid fa-hand-scissors"></i>
     </button>
-
-    <div class="controls-area">
-        <button class="btn btn--big btn--green">
+    <h2>Computer Choose</h2>
+        <button class="btn btn--big btn--green" id="rock" >
             <i class="fa-sharp fa-solid fa-hand-back-fist"></i>
         </button>
-        <button class="btn btn--big btn--blue">
+        <button class="btn btn--big btn--orange" id="paper">
             <i class="fa-sharp fa-solid fa-hand"></i>
         </button>
-        <button class="btn btn--big btn--orange">
+        <button class="btn btn--big btn--red" id="scissors">
             <i class="fa-solid fa-hand-scissors"></i>
         </button>
 </div>
 </div>
 <div class="score-area">
-    <p class="scores">Wins<span id="score">0</span></p>
-    <p class="scores">Loses<span id="incorrect">0</span></p>
+    <p class="scores">Wins<span id="won">0</span></p>
+    <p class="scores">Wins<span id="tie">0</span></p>
+    <p class="scores">Loses<span id="lost">0</span></p>
 </div>
 <footer>
     <h4>Rules</h4>
