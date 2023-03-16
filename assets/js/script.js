@@ -14,7 +14,7 @@ const scissors_div = document.getElementById("scissors")
 
 
 function getComputerChoice(){
-    const choices = ['rock','paper','scissors'];https://jsfiddle.net/s0kzboL1/179/#
+    const choices = ['rock','paper','scissors'];
     const randomNumber = Math.floor(Math.random() * 3);
     return choices[randomNumber];  
 }
