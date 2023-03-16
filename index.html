@@ -12,25 +12,30 @@
 
 
 <h1 class="heading">Rock Paper Scissor</h1>
-<div class="game-area">
-<div class="controls-area">
-    <h2>You Choose</h2>
-    <button class="btn btn--big btn--green" id="rock">
-        <i class="fa-sharp fa-solid fa-hand-back-fist"></i>
-    </button>
-    <button class="btn btn--big btn--orange" id="paper">
-        <i class="fa-sharp fa-solid fa-hand"></i>
-    </button>
-    <button class="btn btn--big btn--red" id="scissors">
-        <i class="fa-solid fa-hand-scissors"></i>
-    </button>
 
+<div class="controls-area">
+    <h2>YOU CHOOSE</h2>
+    <div class="btn btn--big btn--green" id="rock">
+        <i class="fa-sharp fa-solid fa-hand-back-fist"></i>
+    </div>
+    <div class="btn btn--big btn--orange" id="paper">
+        <i class="fa-sharp fa-solid fa-hand"></i>
+        </div>
+    <div class="btn btn--big btn--red" id="scissors">
+        <i class="fa-solid fa-hand-scissors">
+        </i>
+    </div>
+    <h2 >COMPUTER CHOICE</h2>
+    <div class="compuerChoice" id="computerChoice1">
+    <p>I Choose <span id="computerChoice1">0</span></p>
 </div>
-</div>
+    </div>
+
+<!--  this display the score area -->
 <div class="score-area">
-    <p class="scores">Wins<span id="won">0</span></p>
-    <p class="scores">Ties<span id="tie">0</span></p>
-    <p class="scores">Loses<span id="lost">0</span></p>
+    <p class="scores">Win<span id="won">0</span></p>
+    <p class="scores">Tie<span id="tie">0</span></p>
+    <p class="scores">Lost<span id="lost">0</span></p>
 </div>
 <footer>
     <h3>Rules</h3>
