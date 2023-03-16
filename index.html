@@ -12,7 +12,7 @@
 
 
 <h1 class="heading">Rock Paper Scissor</h1>
-
+<!-- game contol area with buttons -->
 <div class="controls-area">
     <h2>YOU CHOOSE</h2>
     <div class="btn btn--big btn--green" id="rock">
@@ -25,9 +25,11 @@
         <i class="fa-solid fa-hand-scissors">
         </i>
     </div>
-    <h2 >COMPUTER CHOICE</h2>
-    <div class="compuerChoice" id="computerChoice1">
-    <p>I Choose <span id="computerChoice1">0</span></p>
+
+    <h2 >COMPUTER CHOOSE</h2>
+    <!-- this displays the computer choice -->
+    <div class="computerchoice">
+    <span id="computerChoice1"></span>
 </div>
     </div>
 
@@ -37,6 +39,7 @@
     <p class="scores">Tie<span id="tie">0</span></p>
     <p class="scores">Lost<span id="lost">0</span></p>
 </div>
+<!-- rules of the game -->
 <footer>
     <h3>Rules</h3>
     <p>Rock wins against scissors; paper wins against rock; and scissors wins against paper. If both players throw the same hand signal, it is considered a tie, and play resumes until there is a clear winner.</p>

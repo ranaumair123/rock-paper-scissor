@@ -6,7 +6,7 @@ body {
     text-align: center;
 }
 
-/* --------- Heading */
+/* Heading */
 
 .heading {
     text-align: center;
@@ -15,10 +15,7 @@ body {
 h2{
     color:white;
 }
-.logo {
-    height: 40px;
-    padding-right: 5px;
-}
+
 
 /* --------- Game layout */
 
@@ -34,7 +31,6 @@ h2{
     padding: 1%;
     
 }
-/* grid choice in control area */
 
 .score-area {
     margin: 5px auto;
@@ -42,11 +38,7 @@ h2{
     font-size: 1.5rem;
 }
 
- /* .controls-area {
-    width: 85%;
-    margin: 60px auto;  
-} */
-
+/* id for score areas */
 #won
  {
     color: green;
@@ -66,15 +58,22 @@ h2{
     font-weight: bold;
     margin:10px;
 }
-
+/* make the score pargraphs inline */
 
 .scores {
     display: inline-block;
     padding: 35px;
     
 }
+.computerchoice {
+    text-transform:uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+   }
 
-/* --------- Buttons */
+
+/* Buttons */
 
 .btn {
     width: 220px;
@@ -141,31 +140,33 @@ h2{
     color: white;
 }
 footer p{
+    
     background-color: #c1c9d1;
 }
 
-/* --------- Media queries */
+/* Media queries */
 
-@media (max-width: 680px) {
+@media (max-width: 670px) {
     .controls-area {
-        width: 85%;
+       
        
     }
+    
 
     .btn--big {
         margin: 0 10px;
         padding: 5px;
         border: 5px solid;
-        width: 50px;
-        height: 50px;
-        font-size: 1.5rem;
+        width: 85px;
+        height: 85px;
+        font-size: 2.5rem;
     }
 
     .btn--big::after {
         font-size: 0.6rem;
         left: -0.7rem;
     }
-
+    
 
     .score-area {
         width: 100%;
@@ -182,17 +183,28 @@ footer p{
     }
 }
 
-@media (max-width: 320px) {
+
+@media (max-width: 450px) {
  
 
     .controls-area {
-        width: 75%;
+        width: 85%;
         height:100%;
        
     }
 
-    .btn--big {
+    .btn {
         margin: 5px 5px;
+         margin: 0 10px;
+        padding: 5px;
+        border: 5px solid;
+        width: 30px;
+        height: 30px;
+        font-size: 1.5rem;
+          display:inline-block;
     }
+    .score-area {
+      padding: 20px;
+        width: 100%;
 
 }

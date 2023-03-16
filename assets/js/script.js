@@ -1,16 +1,13 @@
+// caching DOM elements
 let userScore = 0;
 let computerScore = 0;
 let userComputerTie = 0;
-let computerChoice1 = 0;
 const userScore_span = document.getElementById("won");
 const computerScore_span = document.getElementById("lost");
 const userComputerTie_span = document.getElementById("tie");
-const computerChoice_span = document.getElementById("computerChoice1");
-const scoreBoard_div = document.querySelector(".score-board");
-const result_div = document.querySelector(".result");
-const rock_div = document.getElementById("rock")
-const paper_div = document.getElementById("paper")
-const scissors_div = document.getElementById("scissors")
+const rock_div = document.getElementById("rock");
+const paper_div = document.getElementById("paper");
+const scissors_div = document.getElementById("scissors");
 
 
 function getComputerChoice(){
@@ -37,7 +34,7 @@ function lost(){
 function game(userChoice){
     const computerChoice = getComputerChoice();
     const result = userChoice + computerChoice;
-    
+    // id else loop for checking the results
     if(result === 'rockscissors' ){
    win();
   document.getElementById("computerChoice1").innerHTML= computerChoice;
@@ -74,19 +71,18 @@ function game(userChoice){
      document.getElementById("computerChoice1").innerHTML = computerChoice;
    }
   }
-
-
+// adding event listeners to buttons
 function mian(){
 rock_div.addEventListener("click", function(){
 game("rock");
-})
+});
 
 paper_div.addEventListener("click", function(){
     game("paper");
-    })
+    });
 
 scissors_div.addEventListener("click", function(){
             game("scissors");
-        })    
+        });    
     }
     mian();
