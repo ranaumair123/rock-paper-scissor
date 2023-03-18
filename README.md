@@ -2,9 +2,17 @@
 We all played rock paper scissors when we were kids. This game is same like our childhood game but instead of our friend we are playing this game with computer.You will have three choices to pick from Rock , Paper , Scissors. You have to Choose one Choice then computer will choose its choice and if you win you will get one point and it will be displayed on the score board along with the ties and lost.
 <img src="assets/images/1.png">
 
+## Accessibility
+<img src="assets/images/2.png">
+
 ## Features 
 The main Features of the website is when you hoover over buttons, the button colors changes. When you click on button of your choice the computer choice prints out underneath computer choice. 
 <img src="assets/images/5.png">
+
+## Fonts for buttons
+I used font awesome fonts for buttons
+
+<img src="assets/images/6.png">
 
 
 ## Testing
@@ -31,6 +39,10 @@ CSS3
 
 Javascript
 
+## Unsolved Bugs
+when the screen size go smaller sometime buttons overflow from the controls area.
+
 ##  Credits
+I used font awesome fonts for button images
 I took inspiration for button from love Maths project.
 
